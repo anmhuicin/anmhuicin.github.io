@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Acumin Pro", sans-serif;
+	color: #1c1c1c;
+	background: #d9d7d7;
+}
+
+nav {
+	font-family: "Lato", sans-serif;
+	background: #d9d7d7;
+	width: 100%;
+	padding: 10px 0;
+}
+
+nav .menu {
+	max-width: 1250px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.title {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.menu ul {
+	display: inline-flex;
+}
+
+.menu ul li {
+	list-style: none;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+.subtitle {
+	font-size: 24px;
+}
+
+.menu .title a {
+	text-decoration: none;
+	color: #1c1c1c;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #1c1c1c;
+	font-weight: 600;
+	padding: 6px 12px;
+}
+
+.menu ul li span:hover {
+	border-bottom: 5px solid #FF8C00;
+}
+
+.standard-link {
+	text-decoration: none;
+	border-bottom: 1px solid #FF8C00;
+	color: #FF8C00;
+}
+
+.center {
+	position: absolute;
+	top: 52%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+}
+
+.intro-text {
+	font-size: 2rem;
+}

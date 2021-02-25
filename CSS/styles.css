@@ -70,13 +70,63 @@ nav .menu {
 }
 
 .center {
-	position: absolute;
+	/*position: absolute;
 	top: 52%;
 	left:50%;
-	transform: translate(-50%, -50%);
-	width: 90%;
+	transform: translate(-50%, -50%);*/
+	padding: 100px 20px;
+	/*width: 90%;*/
 }
 
 .intro-text {
 	font-size: 2rem;
+}
+
+.portfolio-img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 95%;
+  	height: auto;
+}
+
+.img-overlay {
+	position: relative;
+	width: 95%;
+}
+
+.img-overlay:hover {
+	background: red!important;
+	opacity: 0.5;
+}
+
+footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+}
+
+hr {
+	border-width: 0;
+	height: 1px;
+	background-color: gray;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.footer-nav {
+	padding: 20px 0;
+	float: right;
+	margin-right: 25px;
+}
+
+.footer-elem {
+	padding: 0 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #1c1c1c;
 }

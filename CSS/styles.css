@@ -82,27 +82,57 @@ nav .menu {
 	font-size: 2rem;
 }
 
-.portfolio-img {
-	display: block;
-  	margin-left: auto;
+.portfolio-gallery {
+	position: relative;
+	margin-left: auto;
   	margin-right: auto;
-  	width: 95%;
-  	height: auto;
+	width: 95%;
+}
+
+.portfolio-img, .img-overlay {
+	position: absolute;
+	display: block;
+  	height: 600px;
+  	width: 100%;
+  	top: 0;
+  	left: 0;
 }
 
 .img-overlay {
 	position: relative;
-	width: 95%;
+	background-color: black;
 }
 
-.img-overlay:hover {
-	background: red!important;
-	opacity: 0.5;
+.portfolio-img:hover {
+	opacity: 0.7;
 }
+
+.img-caption {
+	position: absolute;
+	margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#fff;
+    font-size: 2rem;
+    text-align: center;
+   	height: 100px;
+   	z-index: 1;
+}
+
+/*.img-caption: hover .portfolio-img {
+	opacity: 0.7
+}*/
+
+/*.img-overlay:hover .portfolio-img {
+	display: none;
+}*/
 
 footer {
-	left: 0;
-	bottom: 0;
+	/*left: 0;
+	bottom: 0;*/
+	margin-top: 800px;
 	width: 100%;
 	text-align: center;
 	padding: 20px 0;
